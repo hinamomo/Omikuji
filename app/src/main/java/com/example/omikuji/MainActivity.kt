@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         resultText.text = results[random]
 
         if(random == 0){
-            resultText.setTextColor(Color.RED)
+            resultText.setTextColor(Color.BLUE)
         } else {
             resultText.setTextColor(Color.BLACK)
         }
